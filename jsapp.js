@@ -23,3 +23,10 @@
      
 
  }
+document.body.style.backgroundColor='pink'
+var a1=document.createElement('div');
+
+
+a1.classList.add('a2','a1');
+a1.innerHTML="My List";
+document.body.appendChild(a1);

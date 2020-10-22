@@ -23,10 +23,35 @@
      
 
  }
-document.body.style.backgroundColor='pink'
+document.body.classList.add('b1')
 var a1=document.createElement('div');
 
 
 a1.classList.add('a2','a1');
 a1.innerHTML="My List";
 document.body.appendChild(a1);
+
+
+var btn=document.createElement('button');
+var d2=document.createElement('div');
+
+btn.style.fontWeight='bold';
+
+d2.style.fontWeight='bold';
+d2.style.backgroundColor='transparent';
+
+
+btn.innerHTML='display time';
+
+
+document.body.appendChild(btn);
+document.body.appendChild(d2);
+
+btn.addEventListener('click',fun1);
+function fun1(){
+    
+    d2.innerHTML= Date();
+}
+
+
+btn.classList.add('btn')

@@ -8,3 +8,12 @@
 .a1{
     margin-top: -39%;
 }
+.b1{
+    background: linear-gradient(100deg,rgb(241, 200, 233),rgb(218, 151, 224));
+}
+.btn{
+    margin-top: 35%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: crimson;
+    
+}

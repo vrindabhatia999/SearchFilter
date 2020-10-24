@@ -55,3 +55,5 @@ function fun1(){
 
 
 btn.classList.add('btn')
+
+document.body.style.textShadow='1px 1px 1px black';
